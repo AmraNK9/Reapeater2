@@ -1,0 +1,75 @@
+div{
+ display:  flex;
+ flex-direction: column;
+ justify-content: center;
+margin-top: 20px;
+
+}
+body{
+    background-color: #191919;
+}
+
+input{
+    margin: none;
+    padding: none;
+    all: unset;
+    border: 2px solid;
+    border-color: lightseagreen;
+    box-shadow: 0px 0px 3px lightseagreen;
+    padding: 0px 10px;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+
+button{
+    margin-top: 10px;
+    font-family: 'Mouse Memoirs', sans-serif;
+        margin: none;
+    padding: none;
+    all: unset;
+    border: 2px solid;
+    border-color: lightseagreen;
+    box-shadow: 0px 0px 3px lightseagreen;
+    padding: 0px 10px;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+#btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+textarea{
+    margin: none;
+    padding: none;
+    all: unset;
+    border: 2px solid;
+    border-color: lightseagreen;
+    box-shadow: 0px 0px 3px lightseagreen;
+    padding: 0px 10px;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+textarea::-webkit-scrollbar{
+    all:unset;
+ 
+}
+
+ul{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+li{
+    all: unset;
+    color: aliceblue;
+}
